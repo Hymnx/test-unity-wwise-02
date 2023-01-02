@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BE2F50BB-B477-4943-BE8F-F6C8FD297E0B}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BE2F50BB-B477-4943-BE8F-F6C8FD297E0B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{BB1EC793-E717-40BD-A084-DDCD9E6BD19C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Piano_stereo" ID="{0732B694-149E-486E-BB79-970C2E7E6DF8}" WorkUnitID="{A3144D17-7E4A-4186-BE79-D1A87E1DD8F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dune_pad_1" ID="{AC1DF7FA-6450-491C-AA25-DD3B9314FAA8}" WorkUnitID="{A3144D17-7E4A-4186-BE79-D1A87E1DD8F0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

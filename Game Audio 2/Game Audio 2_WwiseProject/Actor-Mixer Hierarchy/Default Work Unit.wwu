@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4EF3E9F9-85A8-46C5-AA0D-74022E6944AB}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4EF3E9F9-85A8-46C5-AA0D-74022E6944AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Dune pad 1" ID="{9C264143-D9AC-4E20-B928-AE7CFE4524B7}" ShortID="678478661">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Box_Attenuation" ID="{373CCE17-187F-4FE6-82E5-9AB3B7FFB71E}" WorkUnitID="{12D89E9D-3FA7-412C-A84E-64721D9B0B45}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAA443F7-982A-4D04-9DC3-8BDDC0D99680}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C24EFA8A-22CD-40DB-A3D8-50EFCD79C615}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dune pad 1" ID="{5E1E5F61-61DA-4C86-B80C-9B794F66004F}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0563097831725283"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0241327642167972"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Dune pad 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="899450752"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dune pad 1" ID="{5E1E5F61-61DA-4C86-B80C-9B794F66004F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Piano stereo" ID="{2FEF3EE9-71E7-4361-92C2-020FE64168A3}" ShortID="562515048">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Box_Attenuation" ID="{373CCE17-187F-4FE6-82E5-9AB3B7FFB71E}" WorkUnitID="{12D89E9D-3FA7-412C-A84E-64721D9B0B45}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAA443F7-982A-4D04-9DC3-8BDDC0D99680}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C24EFA8A-22CD-40DB-A3D8-50EFCD79C615}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Piano stereo" ID="{7E5210DD-7052-4D0B-8DC3-3201D726A952}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.020110562743616"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.022624383086568"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.84011649104085"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Piano stereo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="252131643"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Piano stereo" ID="{7E5210DD-7052-4D0B-8DC3-3201D726A952}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

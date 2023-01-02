@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebbf53790f0f25248a6a18e431758563, type: 3}
+  m_Name: AC1DF7FA-6450-491C-AA25-DD3B9314FAA8
+  m_EditorClassIdentifier: 
+  objectName: Play_Dune_pad_1
+  id: 2098097030
+  guid: AC1DF7FA-6450-491C-AA25-DD3B9314FAA8

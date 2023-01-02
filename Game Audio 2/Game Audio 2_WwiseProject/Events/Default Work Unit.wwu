@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A3144D17-7E4A-4186-BE79-D1A87E1DD8F0}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A3144D17-7E4A-4186-BE79-D1A87E1DD8F0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Dune_pad_1" ID="{AC1DF7FA-6450-491C-AA25-DD3B9314FAA8}">
+					<ChildrenList>
+						<Action Name="" ID="{73553BA7-A434-48A5-8DBC-8CDB3DA630E0}" ShortID="687011135">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dune pad 1" ID="{9C264143-D9AC-4E20-B928-AE7CFE4524B7}" WorkUnitID="{4EF3E9F9-85A8-46C5-AA0D-74022E6944AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Piano_stereo" ID="{0732B694-149E-486E-BB79-970C2E7E6DF8}">
+					<ChildrenList>
+						<Action Name="" ID="{D7136897-A01C-42DE-881F-FDFC283401AF}" ShortID="893878495">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Piano stereo" ID="{2FEF3EE9-71E7-4361-92C2-020FE64168A3}" WorkUnitID="{4EF3E9F9-85A8-46C5-AA0D-74022E6944AB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

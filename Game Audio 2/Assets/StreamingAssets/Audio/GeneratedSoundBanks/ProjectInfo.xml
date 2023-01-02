@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Game Audio 2_WwiseProject" GUID="{82D53BBC-D453-4CC6-9390-114223BAD01D}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../../../../Game Audio 2_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{59DBDBAB-79AA-48D1-93CF-A2C3DE5CDCA6}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Game Audio 2_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{721A753F-7EF3-4291-A12E-22DEF7DECA24}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Game Audio 2_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{A36774A5-D44F-4917-AA9E-999C1B5D80BB}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{77C4E4D8-F65B-1F2C-8D8C-F72D3A62F24E}</FileHash>
+</ProjectInfo>

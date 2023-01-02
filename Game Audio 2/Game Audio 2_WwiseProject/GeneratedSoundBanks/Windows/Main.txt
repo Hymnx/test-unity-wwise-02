@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2098097030	Play_Dune_pad_1			\Default Work Unit\Play_Dune_pad_1	
+	2111494132	Play_Piano_stereo			\Default Work Unit\Play_Piano_stereo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	252131643	Piano stereo	E:\Unity\Projects\Learning\Game Audio 2\Game Audio 2_WwiseProject\.cache\Windows\SFX\Piano stereo_59FC7053.wem		\Actor-Mixer Hierarchy\Default Work Unit\Piano stereo		324836
+	899450752	Dune pad 1	E:\Unity\Projects\Learning\Game Audio 2\Game Audio 2_WwiseProject\.cache\Windows\SFX\Dune pad 1_B1EF2152.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dune pad 1		1302968
+
